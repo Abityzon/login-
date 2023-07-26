@@ -1,0 +1,74 @@
+/* login.css */
+
+/* Center the login form */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:linear-gradient(#23d5ab,#10a3d8); /* Set your desired background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the login box */
+.login-box {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Set the border color */
+  background:linear-gradient(#ee7752, #e73c7e, #23a6d5, #23d5ab) /* Set the box background color */
+}
+
+/* Center the login box */
+.login-box-container {
+  text-align: center;
+}
+
+/* Style the login form fields */
+.login-box label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #727171; /* Set the input border color */
+}
+
+/* Style the login button */
+.login-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Set the button background color */
+  color: #fff; /* Set the button text color */
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the remember me checkbox */
+.login-box .field {
+  display: flex;
+  align-items: center;
+}
+
+/* Add some space between checkbox and label */
+.login-box .field label {
+  margin-left: 8px;
+}
+
+/* Style error messages */
+#error_explanation {
+  color: red;
+  text-align: center;
+}
+
+/* Style Devise flash messages */
+.flash-messages {
+  text-align: center;
+  padding: 10px;
+  background-color: #f44336; /* Set the flash message background color */
+  color: #fff; /* Set the flash message text color */
+}

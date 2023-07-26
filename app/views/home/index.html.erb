@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Your head content here -->
+</head>
+<body>
+  <!-- Your navigation and other layout content here -->
+
+  <% if user_signed_in? %>
+    <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+  <% end %>
+
+  <!-- Your other content here -->
+</body>
+</html>

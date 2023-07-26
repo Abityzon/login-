@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Your head content here -->
+</head>
+<body>
+  <!-- Your navigation and other layout content here -->
+<div class="users">
+  <h1>List of Users</h1>
+  <ul>
+    <% @users.each do |user| %>
+      <li><%= user.email %></li>
+    <% end %>
+  </ul>
+</div>
+
+  <!-- Your other content here -->
+</body>
+</html>
